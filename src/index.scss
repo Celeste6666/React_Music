@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500&display=swap');
+
+// Include any default variable overrides here
+$indigo:  #650D88 !default;
+$primary: $indigo !default;
+
+$orange: #fe5300 !default;
+$warning: $orange !default;
+
+$cyan: #bad9fa;
+
+$green:#38676b !default;
+
+$gray-600: #9fa4a8 !default;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: 'Changa', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-X: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body.container-fluid {
+  padding: 0 2.5%;
+}
+
+input, button{
+  outline: none !important;
+  box-shadow: none !important;
+}
